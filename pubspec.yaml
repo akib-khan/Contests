@@ -1,0 +1,49 @@
+name: tabs
+description: The expense sharing app.
+
+version: 1.0.4+2
+
+environment:
+  sdk: ">=2.5.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  firebase_core:
+  firebase_auth: ^0.15.3+1
+  cloud_firestore:
+  provider: ^4.0.2
+  permission_handler: ^4.0.0
+  contacts_service:
+  flutter_typeahead:
+  flutter_money_formatter:
+  timeago:
+  flutter_spinkit:
+  flutter_staggered_animations:
+  auto_animated: ^3.0.0
+  google_sign_in:
+  flutter_signin_button: ^1.0.0
+  apple_sign_in: ^0.1.0
+  shared_preferences:
+  smart_select: ^4.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/graphics/
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Regular.ttf
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Rubik-Light.ttf
+          weight: 200
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 400
